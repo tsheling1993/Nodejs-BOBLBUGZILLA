@@ -9,7 +9,8 @@ var connection = mysql.createConnection({
 
 connection.connect((err)=>{
   if(!err){
-    console.log("Database connection success");	
+    console.log("Database connection success");
+    console.log("Testing for the second commit");	
   }
    else
    console.log(err);
